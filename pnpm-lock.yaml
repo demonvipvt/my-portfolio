@@ -11,6 +11,9 @@ importers:
       gray-matter:
         specifier: 4.0.3
         version: 4.0.3
+      lenis:
+        specifier: 1.1.20
+        version: 1.1.20(react@19.1.1)
       marked:
         specifier: 16.3.0
         version: 16.3.0
@@ -276,6 +279,17 @@ packages:
   kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
+
+  lenis@1.1.20:
+    resolution: {integrity: sha512-UE64mlJEN4W8DWP2tfHzPzygk94Q2BhjzeG/YHWoyeMJ2Fd6XziBCNN+IvHwmB4GkmKIYxgr0+TvRYTSAMTMFA==}
+    peerDependencies:
+      react: '>=17.0.0'
+      vue: '>=3.0.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      vue:
+        optional: true
 
   marked@16.3.0:
     resolution: {integrity: sha512-K3UxuKu6l6bmA5FUwYho8CfJBlsUWAooKtdGgMcERSpF7gcBUrCGsLH7wDaaNOzwq18JzSUDyoEb/YsrqMac3w==}
@@ -552,6 +566,10 @@ snapshots:
       esprima: 4.0.1
 
   kind-of@6.0.3: {}
+
+  lenis@1.1.20(react@19.1.1):
+    optionalDependencies:
+      react: 19.1.1
 
   marked@16.3.0: {}
 

@@ -2,8 +2,8 @@
 @media (prefers-color-scheme: light) { :root { --bg:#fafafa; --fg:#14171c; --mut:#5b6472; } }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 system-ui,-apple-system,Segoe UI,sans-serif; }
-header,main,footer { max-width:720px; margin:0 auto; padding:20px 16px; }
-header { display:flex; justify-content:space-between; align-items:baseline; }
+.blog header,.blog main,.blog footer { max-width:720px; margin:0 auto; padding:20px 16px; }
+.blog header { display:flex; justify-content:space-between; align-items:baseline; }
 .brand { font-weight:700; font-size:1.2rem; color:var(--fg); text-decoration:none; }
 nav a { margin-left:16px; color:var(--mut); text-decoration:none; }
 a { color:var(--acc); }
@@ -14,4 +14,4 @@ h1,h2,h3 { line-height:1.25; }
 pre { overflow:auto; padding:12px; background:color-mix(in srgb,var(--mut) 15%,transparent); border-radius:8px; }
 code { font-size:.92em; }
 img,iframe { max-width:100%; }
-footer { color:var(--mut); font-size:.9rem; }
+.blog footer { color:var(--mut); font-size:.9rem; }
